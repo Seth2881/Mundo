@@ -1,0 +1,13 @@
+#valeurs {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    justify-content: center;
+    align-items: center;
+
+    scroll-margin-top: 4rem;
+}

@@ -2,17 +2,20 @@
     font-family: sans-serif;
     text-decoration: none;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    /* width: 100vw; */
     height: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    gap: 1rem;
-    top: 0;
-    left: 0;
+}
+
+main {
+    width: 100%;
+    margin-top: 10vh;
 }
