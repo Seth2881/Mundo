@@ -13,6 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
+
+    /* background: url(../assets/default.png); */
 }
 
 main {
