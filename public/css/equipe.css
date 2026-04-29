@@ -1,0 +1,53 @@
+#equipe {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.membre-left, .membre-right {
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.membre-left {
+    background: #838383;
+    padding-left: 10rem;
+}
+
+.membre-right {
+    justify-content: flex-end;
+    background: #4d4d4d;
+    padding-right: 10rem;
+}
+
+.photo-employe {
+    border-radius: 50%;
+    height: 70%;
+}
+
+.nomdesc {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 2rem;
+}
+
+.nomdesc-right {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+    text-align: right;
+
+    gap: 2rem;
+}
+
+.presentation {
+    width: 20vw;
+}
