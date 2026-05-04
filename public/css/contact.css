@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.contact, .reseau, .company-desc {
+    width: 20%;
+}
+
+.reseau {
+    display: flex;
+    flex-direction: column;
+}
+
+.reseau img {
+    width: 20%;
+}

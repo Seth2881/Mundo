@@ -10,7 +10,7 @@
 
 #theme, #coiffure, #vetement {
     width: 90%;
-    height: 32vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     gap: .7rem;
@@ -94,6 +94,9 @@
 
 #giveaway-week, #giveaway-month {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .articleprevgiveaway {
