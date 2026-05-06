@@ -3,3 +3,14 @@ footer {
     height: 40rem;
     background: #303030;
 }
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.links {
+    width: fit-content;
+    height: fit-content;
+}

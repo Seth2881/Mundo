@@ -15,17 +15,19 @@
 .membre-left {
     background: #838383;
     padding-left: 10rem;
+    height: 40vh;
 }
 
 .membre-right {
     justify-content: flex-end;
     background: #4d4d4d;
     padding-right: 10rem;
+    height: 40vh;
 }
 
 .photo-employe {
     border-radius: 50%;
-    height: 30vh;
+    height: 50%;
 }
 
 .nomdesc {
@@ -34,6 +36,7 @@
 
     align-items: flex-start;
 
+    width: 40%;
     margin : 4rem 0;
     gap: 2rem;
 }
@@ -46,6 +49,7 @@
     align-items: flex-end;
     text-align: right;
 
+    width: 40%;
     margin : 4rem 0;
     gap: 2rem;
 }
