@@ -1,0 +1,28 @@
+{
+  "giveaways": {
+    "semaine": {
+      "id": "gs1",
+      "titre": "Sérum Capillaire Luxe",
+      "image": "assets/default.png",
+      "description": "Sérum réparateur à l'huile d'argan et kératine. Valeur 80€.",
+      "valeur": 80,
+      "dateFin": "2025-05-18",
+      "participation": {
+        "instagram": "@mundoshop",
+        "hashtag": "#MundoMiami"
+      }
+    },
+    "mois": {
+      "id": "gm1",
+      "titre": "Veste Vintage Ralph Lauren",
+      "image": "assets/default.png",
+      "description": "Veste polo Ralph Lauren années 90. Taille L. Pièce collector.",
+      "valeur": 350,
+      "dateFin": "2025-05-31",
+      "participation": {
+        "instagram": "@mundoshop",
+        "hashtag": "#MundoMiami"
+      }
+    }
+  }
+}

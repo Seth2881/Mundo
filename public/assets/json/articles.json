@@ -1,0 +1,54 @@
+{
+  "coiffure": [
+    {
+      "id": "c1",
+      "titre": "Brushing Miami Waves",
+      "image": "assets/default.png",
+      "description": "Ondulations volumineuses inspirées des plages de South Beach. Technique eau de sel et diffuseur.",
+      "prix": 85,
+      "disponible": true
+    },
+    {
+      "id": "c2",
+      "titre": "Coupe Pastel Dégradé",
+      "image": "assets/default.png",
+      "description": "Balayage pastel doux sur base claire. Du rose au lilas, inspiré des couchers de soleil floridiens.",
+      "prix": 140,
+      "disponible": true
+    },
+    {
+      "id": "c3",
+      "titre": "Bob Asymétrique Rétro",
+      "image": "assets/default.png",
+      "description": "Coupe structurée asymétrique aux accents art déco des années 80.",
+      "prix": 95,
+      "disponible": true
+    },
+    {
+      "id": "c4",
+      "titre": "Lissage Brésilien",
+      "image": "assets/default.png",
+      "description": "Lissage kératine longue durée. Brillance miroir garantie 3 mois.",
+      "prix": 200,
+      "disponible": false
+    },
+    {
+      "id": "c5",
+      "titre": "Tresses Néon",
+      "image": "assets/default.png",
+      "description": "Box braids rehaussées de fils colorés fluo. Esprit festival de nuit.",
+      "prix": 160,
+      "disponible": true
+    }
+  ],
+  "vetements": [
+    {
+      "id": "v1",
+      "titre": "Veste Versace 1991",
+      "image": "assets/default.png",
+      "description": "Veste baroque vintage Versace, collection été 1991. État impeccable. Taille M.",
+      "prix": 1200,
+      "disponible": true
+    }
+  ]
+}

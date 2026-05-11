@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mundo</title>
-    <!-- CSS INCLUSION -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
@@ -15,37 +15,34 @@
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/equipe.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/contact.css">
 </head>
 
 <body>
+
     <header>
         <a href="#accueil">
             <h1>発見 Mundo</h1>
         </a>
 
-        <div class="links">
-            <a href="#valeurs">
-                <h4>Valeurs</h4>
-            </a>
+        <!-- Nav desktop -->
+        <nav class="links">
+            <a href="#valeurs"><h4>Valeurs</h4></a>
+            <a href="#services"><h4>Services</h4></a>
+            <a href="#equipe"><h4>L'équipe</h4></a>
+            <a href="#contact"><h4>Contactez</h4></a>
+        </nav>
 
-            <a href="#services">
-                <h4>Services</h4>
-            </a>
-
-            <a href="#equipe">
-                <h4>L'équipe</h4>
-            </a>
-
-            <a href="#contact">
-                <h4>Contactez</h4>
-            </a>
-        </div>
-
+        <!-- Hamburger mobile -->
+        <button class="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </header>
 
     <main>
 
+        <!-- ── ACCUEIL ── -->
         <section id="accueil">
             <div class="separateur"></div>
 
@@ -82,11 +79,11 @@
                     debitis numquam sed, beatae quas voluptatum amet nulla animi, pariatur cumque. Nesciunt accusamus
                     sunt, ratione maiores nisi porro illo?</p>
             </div>
-
         </section>
 
         <div class="moyen-separateur"></div>
 
+        <!-- ── VALEURS ── -->
         <section id="valeurs">
             <h2 class="title">Nos Valeurs</h2>
 
@@ -105,153 +102,38 @@
 
         <div class="petit-separateur"></div>
 
+        <!-- ── SERVICES ── -->
         <section id="services">
 
             <div id="theme">
-                <h3 class="theme">Thème acutel : Miami</h3>
-                <div class="articles">
-                    <div class="article">
-                        <div class="couverture">
-                            <img class="articleprev" src="assets/default.png" alt="">
-                        </div>
-
-                        <div class="hidden-block">
-                            <h5 class="titre-article">test</h5>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis molestiae, soluta
-                                    id,
-                                    porro ad consectetur ipsam in, nisi expedita qui laudantium earum at temporibus
-                                    consequuntur magnam et quod distinctio debitis.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h3 class="theme">Thème actuel : …</h3>
+                <!-- Chargé par loader.js -->
+                <div class="articles"></div>
             </div>
 
             <div id="coiffure">
                 <h3>Coiffure</h3>
-
-                <div class="articles">
-                    <div class="article">
-                        <div class="couverture">
-                            <img class="articleprev" src="assets/default2.png" alt="">
-                        </div>
-
-                        <div class="hidden-block">
-                            <h5 class="titre-article">test</h5>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis molestiae, soluta
-                                    id,
-                                    porro ad consectetur ipsam in, nisi expedita qui laudantium earum at temporibus
-                                    consequuntur magnam et quod distinctio debitis.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="article">
-                        <div class="couverture">
-                            <img class="articleprev" src="assets/default.png" alt="">
-                        </div>
-
-                        <div class="hidden-block">
-                            <h5 class="titre-article">test</h5>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis molestiae, soluta
-                                    id,
-                                    porro ad consectetur ipsam in, nisi expedita qui laudantium earum at temporibus
-                                    consequuntur magnam et quod distinctio debitis.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="article">
-                        <div class="couverture">
-                            <img class="articleprev" src="assets/default3.png" alt="">
-                        </div>
-
-                        <div class="hidden-block">
-                            <h5 class="titre-article">test</h5>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis molestiae, soluta
-                                    id,
-                                    porro ad consectetur ipsam in, nisi expedita qui laudantium earum at temporibus
-                                    consequuntur magnam et quod distinctio debitis.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="article">
-                        <div class="couverture">
-                            <img class="articleprev" src="assets/default2.png" alt="">
-                        </div>
-
-                        <div class="hidden-block">
-                            <h5 class="titre-article">test</h5>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis molestiae, soluta
-                                    id,
-                                    porro ad consectetur ipsam in, nisi expedita qui laudantium earum at temporibus
-                                    consequuntur magnam et quod distinctio debitis.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="article">
-                        <div class="couverture">
-                            <img class="articleprev" src="assets/default2.png" alt="">
-                        </div>
-
-                        <div class="hidden-block">
-                            <h5 class="titre-article">test</h5>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis molestiae, soluta
-                                    id,
-                                    porro ad consectetur ipsam in, nisi expedita qui laudantium earum at temporibus
-                                    consequuntur magnam et quod distinctio debitis.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- Chargé par loader.js -->
+                <div class="articles"></div>
             </div>
 
             <div id="vetement">
                 <h3>Vêtements</h3>
-
-                <div class="articles">
-                    <div class="article">
-                        <div class="couverture">
-                            <img class="articleprev" src="assets/default.png" alt="">
-                        </div>
-
-                        <div class="hidden-block">
-                            <h5 class="titre-article">test</h5>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis molestiae, soluta
-                                    id,
-                                    porro ad consectetur ipsam in, nisi expedita qui laudantium earum at temporibus
-                                    consequuntur magnam et quod distinctio debitis.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!-- Chargé par loader.js -->
+                <div class="articles"></div>
             </div>
 
             <div class="row">
-                <div id="giveaway-week">
-                    <h3>Cadeau de la semaine</h3>
-                    <img class="articleprevgiveaway" src="assets/default.png" alt="">
-                </div>
-
-                <div id="giveaway-month">
-                    <h3>Cadeau du mois</h3>
-                    <img class="articleprevgiveaway" src="assets/default.png" alt="">
-                </div>
+                <!-- Chargé par loader.js -->
+                <div id="giveaway-week"></div>
+                <div id="giveaway-month"></div>
             </div>
 
         </section>
 
         <div class="moyen-separateur"></div>
 
+        <!-- ── ÉQUIPE ── -->
         <section id="equipe">
 
             <div class="membre-left">
@@ -259,9 +141,8 @@
                 <div class="nomdesc">
                     <h3>John Doe</h3>
                     <p class="presentation">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur vero
-                        dicta quos quasi
-                        exercitationem neque, nihil impedit eaque error, aliquam ullam odit incidunt libero atque
-                        consequuntur voluptatibus quis, illo ut.</p>
+                        dicta quos quasi exercitationem neque, nihil impedit eaque error, aliquam ullam odit incidunt
+                        libero atque consequuntur voluptatibus quis, illo ut.</p>
                 </div>
             </div>
 
@@ -269,21 +150,22 @@
                 <div class="nomdesc-right">
                     <h3>John Doe</h3>
                     <p class="presentation">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur vero
-                        dicta quos quasi
-                        exercitationem neque, nihil impedit eaque error, aliquam ullam odit incidunt libero atque
-                        consequuntur voluptatibus quis, illo ut.</p>
+                        dicta quos quasi exercitationem neque, nihil impedit eaque error, aliquam ullam odit incidunt
+                        libero atque consequuntur voluptatibus quis, illo ut.</p>
                 </div>
                 <img class="photo-employe" src="assets/default.png" alt="">
             </div>
 
         </section>
+
     </main>
 
+    <!-- ── CONTACT / FOOTER ── -->
     <footer id="contact">
         <div class="reseau">
-            <a href="" class="links-footer"><img src="assets/icons/facebook.png" class="img-reseau" alt=""></a>
-            <a href="" class="links-footer"><img src="assets/icons/instagram.png" class="img-reseau" alt=""></a>
-            <a href="" class="links-footer"><img src="assets/icons/linkedin.png" class="img-reseau" alt=""></a>
+            <a href="" class="links"><img src="assets/icons/facebook.png" alt="Facebook"></a>
+            <a href="" class="links"><img src="assets/icons/instagram.png" alt="Instagram"></a>
+            <a href="" class="links"><img src="assets/icons/linkedin.png" alt="LinkedIn"></a>
         </div>
 
         <div class="company-desc">
@@ -293,10 +175,14 @@
         </div>
 
         <div class="contact">
-            <p class="tel">+33000000000</p>
+            <p class="tel">+33 0 00 00 00 00</p>
             <p class="mail">contact@mundo.fr</p>
         </div>
     </footer>
-</body>
 
+    <!-- JS -->
+    <script src="js/hamburger.js"></script>
+    <script src="js/loader.js"></script>
+
+</body>
 </html>
