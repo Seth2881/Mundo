@@ -73,6 +73,10 @@
     height: 2rem;
 }
 
+.reservation:hover {
+    color: var(--color);
+}
+
 @keyframes carrousselmovement {
     0% {transform: translateX(-50%);}
     100% {transform: translateX(0%);}
