@@ -10,12 +10,10 @@ header {
     height: 10vh;
     width: 100%;
     position: fixed;
-}
 
-header h1, header a {
-    color: var(--color-bg);
-    text-shadow: 0 1px 3px rgba(0,0,0,0.4);
-    transition: .3s;
+    z-index: 9999 !important;
+
+    background-color: #969696;
 }
 
 .links {
@@ -29,73 +27,4 @@ header h1, header a {
 
 .links a h4 {
     margin: 0;
-    color: var(--color-bg);
-    transition: .3s;
-}
-
-/* ─── Hamburger ─── */
-.hamburger {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-    cursor: pointer;
-    margin-left: auto;
-    padding-right: 1.5rem;
-    background: none;
-    border: none;
-    z-index: 10000;
-}
-
-.hamburger span {
-    display: block;
-    width: 26px;
-    height: 2px;
-    background: #fff;
-    border-radius: 2px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-.hamburger.open span:nth-child(2) { opacity: 0; }
-.hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-
-.links a:hover h4 {
-    margin: 0;
-    color: var(--color-accent);
-}
-
-header h1:hover {
-    color: var(--color-accent);
-}
-
-@media (max-width: 768px) {
-    header {
-        padding-left: 1.5rem;
-        gap: 0;
-        justify-content: space-between;
-    }
-
-    .hamburger { display: flex; }
-
-    .links {
-        position: fixed;
-        top: var(--header-h);
-        left: 0;
-        width: 100%;
-        flex-direction: column;
-        gap: 0;
-        background: inherit;
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.35s cubic-bezier(0.215, 0.610, 0.355, 1);
-    }
-
-    .links.open { max-height: 300px; }
-
-    .links a {
-        display: block;
-        padding: 1rem 2rem;
-        border-top: 1px solid rgba(255,255,255,0.15);
-    }
 }
